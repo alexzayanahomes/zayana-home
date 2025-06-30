@@ -5,34 +5,116 @@
   <title>Zayana Home</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f6f6f6;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
       color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 60px 20px;
       text-align: center;
-      padding: 50px;
     }
-    h1 {
-      color: #2c3e50;
+
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
     }
-    p {
-      font-size: 18px;
-      margin: 20px auto;
-      max-width: 600px;
+
+    header p {
+      font-size: 20px;
+      margin-top: 0;
     }
-    footer {
+
+    .products {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .products h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .product {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+
+    .product p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
       margin-top: 40px;
+      padding: 12px 25px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 20px;
       font-size: 14px;
       color: #777;
+      margin-top: 60px;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Zayana Home</h1>
-  <p>From our heart to your home. 💖<br>
-  Affordable, quality home essentials built for every Kenyan home.</p>
+
+  <header>
+    <h1>Welcome to Zayana Home</h1>
+    <p>From our heart to your home 💖</p>
+  </header>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <h3>Luxury Duvet Set</h3>
+        <p>Soft, warm, and perfect for cozy nights.</p>
+      </div>
+      <div class="product">
+        <h3>3-Piece Towel Set</h3>
+        <p>Super absorbent and durable cotton towels.</p>
+      </div>
+      <div class="product">
+        <h3>Kitchen Organizer Rack</h3>
+        <p>Stylish storage for your daily kitchen tools.</p>
+      </div>
+    </div>
+
+    <a class="whatsapp-btn" href="https://wa.me/2547XXXXXXXXX" target="_blank">Order Now on WhatsApp</a>
+  </section>
 
   <footer>
-    Contact us: kihualex68@gmail.com
+    &copy; 2025 Zayana Home | Contact: kihualex68@gmail.com
   </footer>
+
 </body>
 </html>
